@@ -11,41 +11,91 @@ print(greeting); #this should print 'Hello Prepster'
 
 #1 Variables with a String value
 #Declare variables named first_name, last_name, birth_place, hobby, role_model, famous_quote, fav_president, fav_food, fav_color, fav_song
+first_name = 'john'
+last_name = 'wright'
+birth_place = 'washington d.c.'
+hobby = 'riding motorcycles'
+role_model = 'sgt parnass'
+famous_quote = 'left turn saves lives'
+fav_president = 'barack obama'
+fav_food = 'pizza'
+fav_color = 'green'
+fav_song = 'unforbbiden fruit by drake'
 
 #Assign your own string values to each variable and print each variable.
-
-
+print(first_name)
+print(last_name)
+print(birth_place)
+print(hobby)
+print(role_model)
+print(famous_quote)
+print(fav_president)
+print(fav_food)
+print(fav_color)
+print(fav_song)
 #2 String Concatenation
 #Declare a variable named full_name and concatenate first_name and last_name. Print the full_name variable.
-
-
+full_name = first_name + " " + last_name
+print(full_name)
+stuff = hobby + " " + role_model + " " + famous_quote + " " + fav_president
 #Declare a variable named intro that creates the following sentence:
+print(full_name + " " + birth_place + " " + stuff)
 #'Hello, my name is x and I was born in y.' Where x is full_name and y is birth_place. Print the intro variable.
-
+nam = 'hello my name is'
+nam1 = 'and I was born in'
+print (nam + " " + full_name + " " + nam1 + " " + birth_place)
 
 #Declare a variable named about_me that creates the following sentence:
 #'My hobby is x, my favorite song is y, and I like to eat z.' Where x is hobby, y is fav_song and z is fav_food. Print the about_me variable.
-
-
+name2 = 'My hobby is,'
+name3 = 'My favorite song is,'
+name4 = 'and I like to eat'
+print(name2 + " " + hobby + " " + name3 + " " + fav_song + " " + name4 + " " + fav_food)
 #3 Spacing with tabs and newlines
+print("\tname2 + " " + \thobby + " " + \tname3 + " " + \tfav_song + " " + \tname4 + " " + \tfav_food")
+print("\tname2" "\thobby" "\tname3" "\tfav_song" "\tname4" "\tfav_food")
+print("\nname2" "\nhobby" "\nname3" "\nfav_song" "\nname4" "\nfav_food")
 #Declare a variable named my_hero that the following sentence using a tab:
+my_hero = 'superman'
+justice_league = 'I like watching my favorite movie,'
+hero = 'is my hero'
+print(justice_league + " " + my_hero + " " + hero)
+
 #'My hero is x and his famous quote is y.' Where x is role_model and y is famous_quote. Print the my_hero variable.
-
-
+hero1 = 'my hero is'
+hero2 = 'and his famous quote is'
+print(hero1 + ' ' + my_hero + ' ' + hero2 + ' ' + famous_quote)
 #Declare a variable named my_favs that creates the following sentence and returns a new line after each numbered item. 
+my_favs = 'my favorite thing to do, is ride my motorcycle'
+my_favs1 = 'Because one day I want to be a motogp racer'
+print(my_favs+ ' ' + my_favs1)
+print('my favorite thing to eat is : \npizza\neggs\nchicken')
+
 #'This is what I like: 1. hobby 2. fav_color 3. fav_song
+print('This is what I like: \n1.hobby\n2.fav_color\n3.fav_song')
 #Print the my_favs variable.
+print(my_favs)
 
 
 #4 Variables with a Number value
 #Declare variables named age, weight, shoe_size, fav_number, yen_rate, bitcoin_value, todays_temperature, hawaii_popuation, countries_traveled, number_of_siblings
+name = '2'
+age = '27'
+weight = '215'
+shoe_size = '12'
 
 #Assign your own number values to each variable and print each variable.
-
-
+print(name)
+print(age)
+print(weight)
+print(shoe_size)
 #5 Number as Strings Concatenation
+print(name + ' ' + age + ' ' + weight + ' ' + shoe_size)
 #Declare a variable named self_intro that creates the following sentence:
+
 #'Aloha, my name is x and I am y years old and my shoe size is z.' Where x is full_name, y is age and z is shoe_size. Print the self_intro variable.
+self_intro = 'Aloha, my name is' + ' ' + full_name + ' ' + 'and I am' + ' ' + age + ' ' + 'years old and my shoe size is' + ' ' + shoe_size
+print(self_intro)
 
 
 #Declare a variable named market_update that creates the following sentence:
