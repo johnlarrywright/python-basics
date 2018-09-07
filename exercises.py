@@ -98,7 +98,13 @@ self_intro = 'Aloha, my name is' + ' ' + full_name + ' ' + 'and I am' + ' ' + ag
 print(self_intro)
 
 
-#Declare a variable named market_update that creates the following sentence:
+#Declare a variable name
+# d market_update that creates the following sentence:
+bitcoin = '6,567'
+exchange_rate = '1'
+market_update = "Today's bitcoin value is" + ' ' + bitcoin + ' ' + 'and the yen exchange rate is' + ' ' + exchange_rate
+
+print(market_update)
 #"Today's bitcoin value is x and the yen exchange rate is y." Where x is bitcoin_value and y is yen_rate. Print the market_update variable.
 
 
