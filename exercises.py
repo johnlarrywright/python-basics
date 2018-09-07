@@ -110,8 +110,10 @@ print(market_update)
 
 #Declare a variable named about_hawaii that creates the following sentence:
 #"Did you know that Hawaii's population is x and the average temperatue is y?" Where x is hawaii_population and y is todays_temperature. Print the about_hawaii variable.
-
-
+population = '390,700'
+temperatue = '77*'
+about_hawaii = "Did you know that Hawaii's population is" + ' ' + population + ' ' + 'and the average temperature is' + ' ' + temperatue
+print(about_hawaii)
 #6 Variables with a List value
 #Declare a variable named fab_five and assign it a list containing five of your all time favorite snacks. Print the fab_five variable.
 
