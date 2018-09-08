@@ -116,36 +116,59 @@ about_hawaii = "Did you know that Hawaii's population is" + ' ' + population + '
 print(about_hawaii)
 #6 Variables with a List value
 #Declare a variable named fab_five and assign it a list containing five of your all time favorite snacks. Print the fab_five variable.
-
-
+fab_five = 'snickers' + " " "reese's" + " " + 'hersey' + " " + 'honeybun' + " " + 'hot cheetos'
+print(fab_five)
 #Declare a variable named plate_lunch and assign it a list containing five of your favorite lunch items. Print the plate_lunch variable.
-
-
+plate_lunch = 'pizza' + ' ' + 'tuna' + ' ' + 'chicken' + ' ' + 'burger' + ' ' + 'tacos'
+print(plate_lunch)
 #Declare a variable named ice_cream and assign it a list containing three of your favorite ice cream flavors. Print the ice_cream variable.
-
-
+ice_cream = ['vanilla' + ' ' +'strawberry' + ' ' + 'cookies N cream' + ' ' + 'chocolate' + ' ' + 'vanilla strawberry']
+for item in ice_cream:
+  print(item)
 #Declare a variable named west_siiiiide and assign it a list containing states found on the west coast of the US. Print the west_siiiiide variable.
-
-
+west_siiiiide = ['hawaii' + ' ' + 'california' + ' ' + 'nevada' + ' ' + 'arizona']
+for item in west_siiiiide:
+    print(item)
 #Declare a variable named mega_millions and assign it a list containing the Mega Millions Lottery results for May, 4, 2018
 #https://www.lotteryusa.com/mega-millions/. Print the mega_millions variable
-
+mega_millions = ["04" + ' ' + "05" + ' ' + "10" + ' ' + "12" + ' ' + "18" + ' ' + "21"]
+for item in mega_millions:
+    print(item)
 
 #Declare a variable named hamajang and assign it a list containing six different data types. Print the hamajang variable.
-
+hamajang = ["linux" + ' ' + "python" + ' ' + "c++" + ' ' + "microsoft" + ' ' + "apple" + ' ' + "java"]
+for item in hamajang:
+    print(item)
 #Declare a variable named dynamic_duos and assign it a list containing 3 lists, with each list containing items that pairs well with each other. Print the dynamic_duos variable.
+dynamic_duos = [
+['superman', 'battman', 'hulk'],
+['robin', 'spiderman', 'xmen'],
+['flash', 'arrow', 'antman']
+]
+print(dynamic_duos)
+print(dynamic_duos[0][0])
+print(dynamic_duos[0][1])
+print(dynamic_duos[0][2])
+print(dynamic_duos[1][0])
+print(dynamic_duos[1][1])
+print(dynamic_duos[1][2])
+print(dynamic_duos[2][0])
+print(dynamic_duos[2][1])
+print(dynamic_duos[2][2])
 
 #Print the following:
 #Gin
-
+food = ['gin', 'peanut', 'cheeseburger']
 #peanut butter
 
 #cheeseburger
-
+for item in food:
+    print(item)
 
 #7 Accessing values in List
 vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch doritos', 'oreos', 'Safeway fried chicken', 'Morning Glass coffee']
-
+for item in vics_list:
+    print(item)
 #Print the entire list.
 
 #Print the length of the list.
