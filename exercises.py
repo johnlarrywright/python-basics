@@ -191,7 +191,8 @@ print(vics_list[5])
 vics_list[4] = 'carrot cake'
 print(vics_list)
 #Print the last element in the list using -1
-
+vics_list[6][-1]
+print(vics_list)
 
 #8 Variables with a Dictionary value
 #Declare a variable named car and create the following key-value pairs:
