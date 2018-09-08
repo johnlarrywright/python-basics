@@ -170,17 +170,26 @@ vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch 
 for item in vics_list:
     print(item)
 #Print the entire list.
-
+print(len(vics_list))
 #Print the length of the list.
 
 #Print only the first element in the list.
-
+print(vics_list[0][0])
+print(vics_list[0][1])
+print(vics_list[0][2])
+print(vics_list[0][3])
+print(vics_list[0][4])
+print(vics_list[0][5])
+print(vics_list[0][6])
+print(vics_list[0][7])
 #Print only the last element in the list.
-
+print(vics_list[0][7])
+print(vics_list[6])
 #Print 'Safeway fried chicken'
-
+print(vics_list[5])
 #Replace 'cool ranch doritos' with 'carrot cake' and print the list.
-
+vics_list[4] = 'carrot cake'
+print(vics_list)
 #Print the last element in the list using -1
 
 
