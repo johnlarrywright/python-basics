@@ -195,7 +195,9 @@ vics_list[6][-1]
 print(vics_list)
 
 #8 Variables with a Dictionary value
+
 #Declare a variable named car and create the following key-value pairs:
+car = {'Telsa', 'Model', '3500', 'red', 'False', "moon roof", ["leather seats", "iphone docker"]]}
 # - key: brand string value: Tesla,
 # - key: model string value: Model 3,
 # - key: price number value: 35000,
@@ -204,7 +206,7 @@ print(vics_list)
 # - key: features list value: moon roof, leather seats, iphone docker
 
 #Print the car variable.
-
+print(car)
 
 #Declare a variable named footwear and create the following key-value pairs:
 # - key: brand string value: Vivo Barefoot,
