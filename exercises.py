@@ -197,7 +197,7 @@ print(vics_list)
 #8 Variables with a Dictionary value
 
 #Declare a variable named car and create the following key-value pairs:
-car = {'Telsa', 'Model', '3500', 'red', 'False', "moon roof", ["leather seats", "iphone docker"]]}
+car = {'Telsa', 'Model', '3500', 'red', 'False', "moon roof", "leather seats", "iphone docker"}
 # - key: brand string value: Tesla,
 # - key: model string value: Model 3,
 # - key: price number value: 35000,
@@ -216,9 +216,9 @@ print(car)
 # - key: price number value: 80,
 # - key: color list value: tan, black stripes, gum
 # - key: ordered boolean value: True
-
+footwear = {"Vivo barefoot", "https://www.vivobarefoot.com/us", "Mens", "Ababa Canvas", "80", "tan", "black stripes", "gum", "True"}
 #Print the footwear variable.
-
+print(footwear)
 
 #Declare a variable named bank and create the following key-value pairs:
 # - key: name  string value: First Hawaiian Bank,
