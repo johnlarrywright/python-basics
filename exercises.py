@@ -228,6 +228,11 @@ print(footwear)
 # - key: nasdaq string value: FHB,
 # - key: products list value: savings, loans, trust, wealth management,
 # - key: executive dictionary value: name: Robert Harrison, title CEO, salary: 2000000
+bank = {"First Hawaiian Bank", "2200", "Honolulu", "70000000", "FHB"}
+bank = {"savings", "loans", "trust", "wealth management"}
+bank = {"Robert Harrrison", "title CEO", "salary", "200000"}
+print(bank)
+
 
 #Print the bank variable.
 
