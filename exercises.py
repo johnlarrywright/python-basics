@@ -263,8 +263,13 @@ print(pandas)
 # - key: meet_person string value of your choice  
 
 #Print the bucket_list variable.
-
-
+bucket_list = {}
+bucket_list['travel'] = 'Honolulu'
+bucket_list['learn'] = 'python'
+bucket_list['weight number'] = 215
+bucket_list['to_dos'] = ['complete devleague', 'budget money', 'sell my old laptop']
+bucket_list['meet person'] = 'megan good'
+print(bucket_list) 
 #9 Variable with a Tuple value
 #Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
 
