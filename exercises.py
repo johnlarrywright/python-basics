@@ -288,9 +288,9 @@ print(updated_bio)
 
 #Print the following values:
 #The length of the updated_bio tuple
-
+print(len(updated_bio))
 #Bruce Lee
-
+print(updated_bio[0])
 #Index position 1
 
 #['Game of Death', 1972]
