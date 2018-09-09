@@ -193,7 +193,7 @@ print(vics_list)
 #Print the last element in the list using -1
 vics_list[6][-1]
 print(vics_list)
-
+print(vics_list[-1])
 #8 Variables with a Dictionary value
 
 #Declare a variable named car and create the following key-value pairs:
@@ -231,11 +231,11 @@ print(footwear)
 bank = {"First Hawaiian Bank", "2200", "Honolulu", "70000000", "FHB"}
 bank = {"savings", "loans", "trust", "wealth management"}
 bank = {"Robert Harrrison", "title CEO", "salary", "200000"}
-print(bank)
+
 
 
 #Print the bank variable.
-
+print(bank)
 
 #Declare a variable pandas and assign it an EMPTY dictionary.
 #You will add the following key-value pairs:
@@ -244,9 +244,15 @@ print(bank)
 # - key: cuisine string value: Gourmet Chinese Food
 # - key: menu list value: Orange Chicken, Walnut Shrimp, Sweet and Sour pork
 # - key: highest_revenue string value: Ala Moana Center Food Court
-
+pandas = {}
+pandas['name'] = 'Panda Express'
+pandas['restaurants'] = 2000
+pandas['cuisine'] = 'Gourmet Chinese Food'
+pandas['menu'] = ['Orange Chicken', 'Walnut Shrimp', 'Sweet and Sour pork']
+pandas['highest_revenue'] = 'Ala Moana Center Food Court'
+print(pandas)
 #Print the pandas variable.
-
+print(pandas)
 
 #Declare a variable named bucket_list and assign it to an EMPTY dictionary.
 #You will add the following key-value pairs:
