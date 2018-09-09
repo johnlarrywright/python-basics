@@ -278,9 +278,9 @@ bruce_bio = ('Bruce Lee', 'male', '32', 'San Francisco', ['Kung-Fu Master'
 print(bruce_bio)
 
 #Declare a variable named movies and assign a tuple containing the following values: [The Big Boss, 1971],[Fist of Fury, 1972], [The Way of the Dragon, 1972], [The Game of Death, 1972]
-
+movies = (['The Big Boss, 1971'], ['Fist of Fury, 1972'], ['The Way of the Dragon, 1972'], ['The Game of Death, 1972'])
 #Print the movies variable.
-
+print(movies)
 
 #Declare a variable named updated_bio and add the bruce_bio and movies tuples together. Print the updated_bio variable.
 
