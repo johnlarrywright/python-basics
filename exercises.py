@@ -292,21 +292,21 @@ print(len(updated_bio))
 #Bruce Lee
 print(updated_bio[0])
 #Index position 1
-
+print(updated_bio[1])
 #['Game of Death', 1972]
-
+print(updated_bio[8])
 #philosopher
-
+print(updated_bio[4][2])
 #1971
-
+print(updated_bio[5][1])
 #The Way of the Dragon
-
+print(updated_bio[6][0])
 #Fist of Fury
 
 #The last value using -1
-
+print(updated_bio[-1])
 #Game of Death using -1
-
+print(updated_bio[-1][0])
 
 #10 Variables with a Boolean value
 #Declare the following variables and assign either a True or false value for each.
