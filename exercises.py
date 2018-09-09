@@ -311,6 +311,18 @@ print(updated_bio[-1][0])
 #10 Variables with a Boolean value
 #Declare the following variables and assign either a True or false value for each.
 #female, american, likes_coding, is_hungry, has_a_dog
+female = 'True'
+american = 'False'
+likes_coding = 'True'
+is_hungry = 'False'
+has_a_dog = 'True'
+
 
 #Print each variable that you declare.
+print(female)
+print(american)
+print(likes_coding)
+print(is_hungry)
+print(has_a_dog)
+
 
