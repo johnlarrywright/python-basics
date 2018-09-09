@@ -298,7 +298,7 @@ print(updated_bio[8])
 #philosopher
 print(updated_bio[4][2])
 #1971
-print(updated_bio[5][1])
+print(updated_bio[7])
 #The Way of the Dragon
 print(updated_bio[6][0])
 #Fist of Fury
