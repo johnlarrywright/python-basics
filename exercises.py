@@ -272,9 +272,10 @@ bucket_list['meet person'] = 'megan good'
 print(bucket_list) 
 #9 Variable with a Tuple value
 #Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
-
+bruce_bio = ('Bruce Lee', 'male', '32', 'San Francisco', ['Kung-Fu Master'
+, 'actor', 'philosopher'])
 #Print the bruce_bio variable.
-
+print(bruce_bio)
 
 #Declare a variable named movies and assign a tuple containing the following values: [The Big Boss, 1971],[Fist of Fury, 1972], [The Way of the Dragon, 1972], [The Game of Death, 1972]
 
