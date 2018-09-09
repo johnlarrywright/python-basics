@@ -283,7 +283,8 @@ movies = (['The Big Boss, 1971'], ['Fist of Fury, 1972'], ['The Way of the Drago
 print(movies)
 
 #Declare a variable named updated_bio and add the bruce_bio and movies tuples together. Print the updated_bio variable.
-
+updated_bio = bruce_bio + movies
+print(updated_bio)
 
 #Print the following values:
 #The length of the updated_bio tuple
